@@ -25,7 +25,7 @@ func Sequence(n int){
 		}else{
 			array[i] = (array[i-1]+array[i-2])
 			// fmt.Printf("%d: %.0f\n", i, array[i])
-			fmt.Printf("WYRAZ NR %d: \t%f\n\n", i, array[i])
+			fmt.Printf("NR %d: \t%f\n\n", i, array[i])
 		}
 	}
 }
